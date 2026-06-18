@@ -242,7 +242,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.25rem;
 }
 
 .web-icon { background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
@@ -306,4 +305,12 @@ footer {
     color: var(--text-secondary);
     font-size: 0.85rem;
     background-color: var(--bg-surface);
+}
+
+/* Ensure inline SVGs inherit target card accent text colors accurately */
+.icon-wrapper svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    color: inherit;
 }
