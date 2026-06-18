@@ -1,0 +1,10 @@
+{
+  "name": "quamd-api-engine",
+  "version": "1.0.0",
+  "description": "Headless backend rendering engine pipeline for Quamd.",
+  "main": "render.js",
+  "private": true,
+  "dependencies": {
+    "canvas": "^3.0.0"
+  }
+}
